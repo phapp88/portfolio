@@ -1,0 +1,72 @@
+a {
+  color: rgba(0, 0, 0, 0.87);
+  display: inline-block;
+  font-size: 32px;
+  margin: 1px 5px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+body {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#email-link {
+  position: relative;
+  top: 2.5px;
+}
+
+#home {
+  background: url("./background.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 550px;
+  height: 100vh;
+  margin: 0;
+}
+
+#info {
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#name {
+  font-size: 64px;
+  line-height: 64px;
+  margin: 0 0 10px 0;
+}
+
+#projects-link {
+  font-size: 44px;
+  margin-top: 0;
+}
+
+#title {
+  font-size: 24px;
+  margin: 1px;
+}
+
+@media (min-width: 425px) {
+  #info {
+    float: right;
+    margin: 5vh 10vw;
+    padding-top: 0;
+  }
+
+  #name {
+    line-height: normal;
+    margin-bottom: 1px;
+  }
+}
+
+@media (min-width: 1000px) {
+  #info {
+    margin: 7.5vh 15vw;
+  }
+}
